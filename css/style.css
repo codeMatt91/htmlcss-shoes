@@ -3,6 +3,10 @@
    padding: 0;
    box-sizing: border-box;
 }
+body {
+   overflow-y: hidden;
+}
+
 
 /* Istruzioni container  */
 
@@ -36,4 +40,34 @@
 }
 .description.converse {
    color: green;
+}
+
+
+/* Istruzioni Nav  */
+
+
+.navigatore {
+   position: fixed;
+   right: 5px;
+   top: 40px;
+   width: 300px;
+   height: 50px;
+   z-index: 1;
+}
+
+
+.navigatore li{
+   display: inline-block;
+   height: 50px;
+   width: 50px;
+   margin: 0 20px;
+   text-align: center;
+   background-color: white;
+   border-radius: 50%;
+}
+
+.navigatore li a {
+   font-weight: bold;
+   text-decoration: none;
+   line-height: 50px;
 }
